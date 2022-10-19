@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 0 0 auto;
+    padding: 20px;
+    background: rgb(231, 231, 231);
+}
+
+button {
+    margin-bottom: 15px;
+    font-size: large;
+    border-radius: 5px;
+    background: rgb(253, 166, 180);
+}
+
+button:active {
+    background: pink
+}
+
+#container {
+    display: flex;
+    border: 10px solid rgb(185, 133, 95);
+    width: 500px;
+    height: 500px;
+    background: white;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+}
+
+.row{
+    flex: 1 1 0%;
+}
+
