@@ -18,6 +18,11 @@ button {
     background: rgb(253, 166, 180);
 }
 
+.buttons{
+    display: flex;
+    gap: 200px;
+}
+
 button:active {
     background: pink
 }
